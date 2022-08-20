@@ -1,0 +1,96 @@
+.nav-wrapper {
+	background-color: $bg;
+
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.nav__row {
+	display: flex;
+	justify-content: space-between;
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.active {
+	color: $white;
+}
+
+.navigation {
+	& ul {
+		display: flex;
+		column-gap: 45px;
+	}
+
+	& ul li {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.games button {
+	&::after {
+		position: absolute;
+		top: 3.1%;
+		left: 51.73%;
+
+		content: "";
+		background: url("./../img/icon/shape-menu.svg");
+		background-repeat: no-repeat;
+		width: 12px;
+		height: 6.55px;
+	}
+}
+
+.consoles button {
+	&::after {
+		position: absolute;
+		top: 3.1%;
+		left: 46.2%;
+
+		content: "";
+		background: url("./../img/icon/shape-menu.svg");
+		background-repeat: no-repeat;
+		width: 12px;
+		height: 6.55px;
+	}
+}
+
+.account button {
+	position: relative;
+	display: flex;
+
+	&::before {
+		position: absolute;
+		right: 105%;
+		bottom: 5%;
+
+		content: "";
+		background: url("./../img/icon/account.svg");
+		background-repeat: no-repeat;
+		width: 20px;
+		height: 20px;
+	}
+
+	&::after {
+		position: absolute;
+		top: 30%;
+		left: 110%;
+
+		content: "";
+		background: url("./../img/icon/shape-menu.svg");
+		background-repeat: no-repeat;
+		width: 12px;
+		height: 6.55px;
+	}
+}
+
+.search {
+	border-radius: 4px;
+	color: #435766;
+	background-color: $white;
+
+	padding: 10px 15px;
+}

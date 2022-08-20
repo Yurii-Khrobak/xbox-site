@@ -1,0 +1,26 @@
+html,
+body {
+	font-family: "HelveticaNeueCyr";
+	color: $text;
+	font-size: 21px;
+	line-height: 24px;
+}
+
+.container {
+	max-width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&--fluid {
+		max-width: unset;
+		width: 100%;
+	}
+
+	&--no-padding {
+		padding: 0;
+	}
+}
+
+.none {
+	display: none;
+}

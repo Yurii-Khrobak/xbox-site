@@ -1,0 +1,34 @@
+.hero-wrapper {
+	background: url("./../img/header-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+
+	color: $white;
+}
+
+.hero__row {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.hero__title {
+	margin-top: 150px;
+	margin-bottom: 160px;
+}
+
+.hero__title--main {
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.hero__info {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.hero__btn {
+	margin-bottom: 225px;
+	display: flex;
+	column-gap: 15px;
+}
