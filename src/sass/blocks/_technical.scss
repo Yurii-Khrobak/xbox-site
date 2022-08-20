@@ -1,0 +1,38 @@
+.technical__row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: 105px;
+}
+
+.technical__row--column {
+	display: flex;
+	column-gap: 65px;
+
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.technical__row--column-seg {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+
+	& p {
+		max-width: 320px;
+	}
+}
+
+.technical--title {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 300;
+}
+
+.technical__btn {
+	display: flex;
+	column-gap: 15px;
+
+	padding-bottom: 110px;
+}
